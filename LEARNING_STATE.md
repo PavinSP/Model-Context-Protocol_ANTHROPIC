@@ -5,8 +5,8 @@ Last updated: 2026-08-29
 ---
 
 * Current module: Module 1 — Introduction
-* Current lesson: Pre-lecture retrieval warm-up (M×N / M+N) — "Introducing MCP" video not yet processed
-* Completed lessons: None
+* Current lesson: "Welcome to the course" processed; "Introducing MCP" not yet watched
+* Completed lessons: Welcome to the course (logistics/roadmap only, no concepts to test)
 * Concepts learned: M×N integration problem and M+N alternative (Strong, ~4/6 — see concepts/mxn-problem.md)
 * Concepts demonstrated: Learner self-corrected an imprecise earlier answer ("connection hierarchy and automation"), then derived the M+N formula unprompted from the USB analogy and verified it numerically (2 apps × 5→6 tools: 10→12 under M×N vs 8→9 under M+N)
 * Concepts weak: None confirmed — earlier vagueness was resolved, not a misconception
@@ -18,11 +18,14 @@ Last updated: 2026-08-29
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: Learner predicted (correctly, at a high level) that the AI
-  application = client and the tool = server, before watching the video.
-  Waiting on user to watch "Introducing MCP" (Module 1, 4 min) and paste
-  the transcript so we can confirm/expand this prediction with the actual
-  mechanism (how discovery/invocation actually works) and begin
+* Next action: "Welcome to the course" transcript processed — pure roadmap/
+  prerequisites video (course covers: MCP overview → client/server
+  architecture → tools → resources → prompts). Prerequisites checked and
+  satisfied on this machine (Python 3.13.13, uv 0.11.6 both installed).
+  Learner separately predicted (correctly, at a high level) that AI
+  application = client and tool = server. Waiting on user to watch
+  "Introducing MCP" (Module 1, 4 min) and paste the transcript so we can
+  confirm/expand this prediction with the actual mechanism and begin
   teach+test on that lesson.
 * Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
 
