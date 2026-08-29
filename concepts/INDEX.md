@@ -10,7 +10,7 @@ stable).
 |---|---------|------|--------|----------------|
 | 01 | The M×N integration problem (and M+N alternative) | [01-mxn-problem.md](01-mxn-problem.md) | Strong (~4/6) | 2026-08-29 |
 | 02 | What MCP is — labor-shifting argument, client/server basics | [02-what-is-mcp.md](02-what-is-mcp.md) | Developing (~2-3/6) | 2026-08-29 |
-| 03 | MCP clients — transport, messages, full call sequence | [03-mcp-clients.md](03-mcp-clients.md) | Developing | 2026-08-29 |
+| 03 | MCP clients — transport, messages, full call sequence | [03-mcp-clients.md](03-mcp-clients.md) | ~4/6, one slip to recheck 2026-08-30 | 2026-08-29 |
 
 ## How to use this
 

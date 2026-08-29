@@ -5,11 +5,11 @@ Last updated: 2026-08-29
 ---
 
 * Current module: Module 1 — Introduction
-* Current lesson: "Introducing MCP" taught + tested. "MCP clients" transcript pasted by user but NOT yet started (held per explicit request).
-* Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested)
-* Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6 — see concepts/what-is-mcp.md)
-* Concepts demonstrated: M×N — derived M+N formula unprompted, verified numerically. What-is-MCP — correctly explained GitHub example (what stays/changes with MCP); needed correction on (a) tool-use-vs-MCP distinction (conflated model behavior with authorship location) and (b) mislabeling M×N as "labor" rather than "count" — both corrected with examples, not yet retested without scaffolding
-* Concepts weak: Tool-use-vs-MCP distinction and M×N-vs-labor-shifting distinction — both corrected once, need an unscaffolded retest before calling them Strong
+* Current lesson: "MCP clients" taught (both chunks) + full-sequence tested. Ready for next video.
+* Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested); MCP clients (taught + tested)
+* Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6); MCP clients — transport/messages/full sequence (~4/6, see concepts/03-mcp-clients.md)
+* Concepts demonstrated: M×N — derived M+N formula unprompted, verified numerically. What-is-MCP — correctly explained GitHub example; corrected on tool-use-vs-MCP conflation and M×N-vs-labor mislabeling (not yet retested unscaffolded). MCP clients — recalled the full 15-step/6-party sequence unprompted, correctly placed both detours; one self-corrected slip (said MCP server asks GitHub for "list of tools" — inaccurate, GitHub is only contacted during tool execution, not listing)
+* Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. Concept files now numbered — see concepts/INDEX.md.
 * Labs: 0 completed
 * Assignments: 0 completed
 * Exercises: 0 completed
@@ -18,13 +18,13 @@ Last updated: 2026-08-29
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: User has already pasted the "MCP clients" transcript
-  (03_MCP_clients.txt) but explicitly asked to hold off starting it until
-  "Introducing MCP" testing was fully wrapped up. That wrap-up is now done
-  (see lessons/2026-08-29-session-02-introducing-mcp.md). Next: begin
-  teaching "MCP clients" using the already-provided transcript — no need
-  to ask the user to watch/paste again, it's already in
-  source-material/transcripts/03_MCP_clients.txt.
+* Next action: "MCP clients" fully taught and tested (full sequence recall
+  successful, ~4/6). Remaining Module 1 items: "Connecting Integration
+  Challenges to MCP" dialogue (15 min), MCP Clients Quiz (graded, due
+  2026-08-31), and "Explaining Client–Server Communication" practice
+  assignment. Ask user to watch/paste the next piece of material. Also
+  schedule a 2026-08-30 review touching: M×N-vs-labor conflation,
+  tool-use-vs-MCP distinction, and "does tool listing contact GitHub?"
 * Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
 
 ---

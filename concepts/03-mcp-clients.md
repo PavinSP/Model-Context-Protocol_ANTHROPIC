@@ -114,5 +114,22 @@ unprompted correct detail that the app server doesn't talk to the MCP
 server directly but goes through the MCP client. Second chunk (full 15-step
 sequence) taught but not yet retrieval-tested.
 
-**Last reviewed:** 2026-08-29 (taught; partial retrieval test on chunk 1)
+**Last reviewed:** 2026-08-29 (taught; full sequence retrieval-tested)
 **Next review:** 2026-08-30
+
+**Full-sequence retrieval test (2026-08-29):** Learner recalled the entire
+15-step, six-party sequence unprompted, correctly identifying both detours
+(tool-listing before Claude is consulted, tool-execution after Claude
+requests a tool) and correctly noting "the MCP client cannot do the
+processing" (only forwards). Retention status upgraded to ~4/6 ("apply
+independently").
+
+One self-corrected slip during the answer: initially said the MCP server
+"requests the list of tools that GitHub has" — this is inaccurate. The MCP
+server's tools are pre-built into it; GitHub is contacted ONLY during tool
+*execution* (`CallToolRequest`/step 10), never during tool *listing*
+(`ListToolsRequest`/steps 3-4). The learner actually stated this correctly
+later in the same answer, suggesting the right model is held but the
+initial phrasing needs tightening — flag for a quick re-check on the next
+review (2026-08-30): "does listing tools ever contact GitHub? Why or why
+not?"
