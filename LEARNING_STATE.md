@@ -5,24 +5,23 @@ Last updated: 2026-08-29
 ---
 
 * Current module: Module 1 — Introduction
-* Current lesson: Pre-lecture retrieval warm-up (M×N problem) — "Introducing MCP" video not yet processed
+* Current lesson: Pre-lecture retrieval warm-up (M×N / M+N) — "Introducing MCP" video not yet processed
 * Completed lessons: None
-* Concepts learned: M×N integration problem (Developing — see concepts/mxn-problem.md)
-* Concepts demonstrated: Partial — learner showed correct intuition about APIs and the need for a "middleman" translation layer, but hadn't yet named the mechanism precisely before the concept was introduced
-* Concepts weak: None yet confirmed — watch whether "connection hierarchy and automation" reflects a misconception (e.g. conflating MCP with general workflow automation) once learner responds to pending retrieval question
+* Concepts learned: M×N integration problem and M+N alternative (Strong, ~4/6 — see concepts/mxn-problem.md)
+* Concepts demonstrated: Learner self-corrected an imprecise earlier answer ("connection hierarchy and automation"), then derived the M+N formula unprompted from the USB analogy and verified it numerically (2 apps × 5→6 tools: 10→12 under M×N vs 8→9 under M+N)
+* Concepts weak: None confirmed — earlier vagueness was resolved, not a misconception
 * Labs: 0 completed
 * Assignments: 0 completed
 * Exercises: 0 completed
 * Projects: 0 completed
 * Mistakes: None logged
-* Misconceptions: None logged (1 potential, pending learner response)
-* Review schedule: M×N problem — next review 2026-08-30
-* Retention status: M×N problem = Developing
-* Next action: Get learner's answer to pending retrieval question (does
-  "connection hierarchy and automation" match M×N or something else?), then
-  continue Module 1 — introduce what MCP actually is (client-server,
-  tools/resources/prompts) and process "Introducing MCP" + "MCP clients"
-  videos.
+* Misconceptions: None logged
+* Review schedule: M×N/M+N problem — next review 2026-08-30
+* Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
+* Next action: Learner was just asked to guess which side (client vs
+  server) is the AI application and which is the tool, before watching
+  "Introducing MCP"/"MCP clients" videos. Get that answer, then process
+  those videos.
 * Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
 
 ---

@@ -25,11 +25,14 @@ hand-write this translation layer itself.
   needed its own cable/driver for every computer, until USB standardized the
   interface.
 
-**Mental model:** MCP is being introduced (per the course) as a way to
-collapse M×N integrations into M + N — each tool builds ONE MCP server, each
-AI app builds ONE MCP client, and any client can talk to any server through
-the same protocol. (This is the hypothesis to verify as the course
-continues — not yet confirmed by course material beyond the intro framing.)
+**Mental model:** MCP collapses M×N integrations into **M + N** — each tool
+builds ONE MCP server, each AI app builds ONE MCP client, and any client can
+talk to any server through the same protocol (analogous to USB replacing
+per-device-per-computer cables with one standard port). Verified numerically
+by the learner: 2 apps × 5 tools = 10 connections; adding a 6th tool under
+M×N jumps to 12 (+2, depends on both M and N), but under M+N it would only
+jump to 8 → 9 (+1, independent of M). Confirmed understanding, not just
+recited — learner derived the M+N formula themselves before being told it.
 
 **Non-example:** A single hardcoded integration (e.g. one chatbot with one
 custom Gmail plugin) is not the M×N problem — the problem only shows up at
@@ -46,8 +49,12 @@ inside this repo).
 **Practice exercise:** None yet — to be added once MCP's actual client/server
 mechanism is covered (Module 1 videos).
 
-**Retention status:** Developing — introduced via retrieval practice, not
-yet tested from memory in a later session.
+**Retention status:** Strong (mastery ~4/6 — "apply independently"). Learner
+correctly self-diagnosed a partially-imprecise earlier answer, then derived
+the M+N alternative unprompted from the USB analogy and verified it
+numerically. Not yet tested after a delay, so not "mastered" (6/6) —
+next-day review will confirm whether this holds without the scaffolding of
+this session's questions.
 
-**Last reviewed:** 2026-08-29 (initial introduction)
+**Last reviewed:** 2026-08-29 (initial introduction + immediate retest)
 **Next review:** 2026-08-30 (next day, per spaced repetition schedule)
