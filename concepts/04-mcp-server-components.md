@@ -48,12 +48,17 @@ Module 3).
 lists/accesses resources, how prompts are selected/used) are covered in
 Module 3 ("Defining Resources," "Defining Prompts").
 
-**Retention status:** Developing (~2/6). One distinguishing example
-(README.md) tested — initial answer wrong (called it a tool), corrected
-successfully on retry with a sharper framing. Needs a fresh, un-hinted
-example to confirm the distinction actually stuck before calling this
-Strong.
+**Retention status:** Developing (~3/6). Two distinguishing examples
+tested: (1) README.md contents — initial answer wrong (called it a tool),
+corrected successfully on retry. (2) A "generate a commit message for this
+diff" instruction template — correctly identified as a prompt, though
+initial phrasing said it instructs "the server" rather than "the model";
+corrected — the server just stores/hands out the template, the instructions
+inside are aimed at whatever model ends up using it. All three components
+(tools, resources, prompts) have now been correctly distinguished at least
+once. Needs an un-hinted, mixed-up review (not in teaching order) to
+confirm before calling this Strong.
 
-**Last reviewed:** 2026-08-29 (initial teaching + first retrieval test,
-one correction)
+**Last reviewed:** 2026-08-29 (taught + two retrieval tests, both with one
+correction each)
 **Next review:** 2026-08-30
