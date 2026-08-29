@@ -4,9 +4,9 @@ Last updated: 2026-08-29
 
 ---
 
-* Current module: Module 1 — Introduction
-* Current lesson: "MCP clients" taught (both chunks) + full-sequence tested. Ready for next video.
-* Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested); MCP clients (taught + tested)
+* Current module: Module 1 COMPLETE — about to start Module 2 (Hands-on with MCP servers)
+* Current lesson: None active — awaiting user to bring next material (Module 2: "Project Setup" video)
+* Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested); MCP clients (taught + tested); Connecting Integration Challenges to MCP dialogue (completed independently); MCP Clients Quiz (graded, 100%); Explaining Client–Server Communication (practice, 80%)
 * Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6); MCP clients — transport/messages/full sequence (Strong ~5/6, confirmed via 100% on graded quiz); MCP server components — tools/resources/prompts (Developing ~3/6)
 * Concepts demonstrated: M×N — derived M+N formula unprompted, verified numerically. What-is-MCP — correctly explained GitHub example; corrected on tool-use-vs-MCP conflation and M×N-vs-labor mislabeling (not yet retested unscaffolded). MCP clients — recalled the full 15-step/6-party sequence unprompted, correctly placed both detours; one self-corrected slip (said MCP server asks GitHub for "list of tools" — inaccurate, GitHub is only contacted during tool execution, not listing)
 * Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. NEW GAP (confirmed via independent Coursera dialogue): learner does not yet know "resources" and "prompts" as MCP server components — never actually taught, only named in passing. Concept files now numbered — see concepts/INDEX.md.
@@ -74,6 +74,12 @@ Review key concepts and apply what's learned.
 
 ## Notes
 
-Course folder initialized 2026-08-29. Git repo exists but has no commits
-yet. No source material has been added to `source-material/` yet. Course
-map captured from Coursera UI screenshots on 2026-08-29.
+Course folder initialized 2026-08-29. Course map captured from Coursera UI
+screenshots on 2026-08-29. As of end of session on 2026-08-29: Module 1
+fully complete (welcome video, 2 concept videos, 1 dialogue, graded quiz
+100%, practice assignment 80%), 4 concepts taught and recorded in
+`concepts/` (see INDEX.md), 1 mistake logged and mostly resolved (pending
+one cold recheck 2026-08-30). All work committed and pushed to
+https://github.com/PavinSP/Model-Context-Protocol_ANTHROPIC.git through
+commit 9d85bf9. Next session should start with the 2026-08-30 recheck
+(server-naming / GitHub-timing), then move to Module 2 hands-on material.
