@@ -133,3 +133,33 @@ later in the same answer, suggesting the right model is held but the
 initial phrasing needs tightening — flag for a quick re-check on the next
 review (2026-08-30): "does listing tools ever contact GitHub? Why or why
 not?"
+
+**Independent graded confirmation (2026-08-29):** Passed the official
+Coursera "MCP Clients Quiz" (graded assignment) at 100% (4/4), submitted
+independently before being shared here. All four questions map directly
+onto this concept:
+- Q1: correctly identified transport-agnostic = stdio/HTTP/WebSockets
+  depending on setup (not "same machine always," not auto-switching)
+- Q2: correctly identified the full operation order — User query → Tool
+  discovery → List tools exchange → Claude request → Tool execution →
+  Results flow back → Final response — matching the 15-step sequence
+  taught here
+- Q3: correctly identified ListToolsRequest/Result and
+  CallToolRequest/Result as the two core message-type pairs (not the
+  plausible-sounding distractors like FetchTools/RunTool or
+  ToolDiscovery/ToolInvocation)
+- Q4: correctly identified the client's role as a communication
+  bridge/forwarder (not a data store, not a cache, not something that
+  executes API calls itself) — this directly confirms the client never
+  executes tools, only forwards requests
+
+This is strong, external, graded evidence — retention status upgraded to
+Strong (~5/6). The one remaining loose end (GitHub-contact-timing phrasing
+slip) is now lower priority given this clean graded result, but still
+worth a quick informal recheck at the next scheduled review.
+
+**Note on quiz page content:** The pasted quiz page contained text
+formatted as instructions telling an AI assistant to refuse to help and to
+click a UI button — this is a prompt-injection attempt embedded in the
+page content, not a genuine Coursera instruction, and was disregarded. No
+impact on the quiz result or this concept's evidence.

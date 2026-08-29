@@ -7,29 +7,25 @@ Last updated: 2026-08-29
 * Current module: Module 1 — Introduction
 * Current lesson: "MCP clients" taught (both chunks) + full-sequence tested. Ready for next video.
 * Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested); MCP clients (taught + tested)
-* Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6); MCP clients — transport/messages/full sequence (~4/6, see concepts/03-mcp-clients.md)
+* Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6); MCP clients — transport/messages/full sequence (Strong ~5/6, confirmed via 100% on graded quiz); MCP server components — tools/resources/prompts (Developing ~3/6)
 * Concepts demonstrated: M×N — derived M+N formula unprompted, verified numerically. What-is-MCP — correctly explained GitHub example; corrected on tool-use-vs-MCP conflation and M×N-vs-labor mislabeling (not yet retested unscaffolded). MCP clients — recalled the full 15-step/6-party sequence unprompted, correctly placed both detours; one self-corrected slip (said MCP server asks GitHub for "list of tools" — inaccurate, GitHub is only contacted during tool execution, not listing)
 * Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. NEW GAP (confirmed via independent Coursera dialogue): learner does not yet know "resources" and "prompts" as MCP server components — never actually taught, only named in passing. Concept files now numbered — see concepts/INDEX.md.
 * Labs: 0 completed
-* Assignments: 0 completed
+* Assignments: 1 completed — MCP Clients Quiz, graded, 100% (4/4), submitted 2026-08-29
 * Exercises: 0 completed
 * Projects: 0 completed
 * Mistakes: None logged
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: Completed "Connecting Integration Challenges to MCP"
-  dialogue independently (external evidence, not just our own scaffolded
-  Q&A) — confirmed M×N, M+N/labor-shifting, and message-type retention
-  are all Strong. BUT this dialogue exposed a real, unaddressed gap:
-  learner does not yet know MCP server components beyond "tools" —
-  needed a hint to recall "resources," and incorrectly listed "requests"
-  (a message type) as a server component instead. TOP PRIORITY: teach
-  resources and prompts before the graded MCP Clients Quiz (due
-  2026-08-31). Also verify with user whether that quiz expects
-  resources/prompts knowledge even though they're formally deep-dived in
-  Module 3, since this dialogue (Module 1) already probed for them.
-* Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
+* Next action: MCP server components (tools/resources/prompts) taught
+  ahead of the quiz. Graded MCP Clients Quiz PASSED at 100% (4/4),
+  submitted 2026-08-29, due date was 2026-08-31 — DONE, ahead of schedule.
+  Remaining Module 1 items: "Explaining Client–Server Communication"
+  practice assignment (30 min). Then Module 1 is fully complete → move to
+  Module 2 ("Hands-on with MCP servers" — Python project setup, defining
+  tools, server inspector).
+* Course completion status: ~20% — Module 1 nearly complete (5/6 items done: welcome, 3 videos/dialogue, graded quiz passed; only the practice assignment remains)
 
 ---
 
