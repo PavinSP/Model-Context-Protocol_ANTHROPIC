@@ -40,7 +40,13 @@ scale, when you have multiple apps and/or multiple tools.
 
 **Related concepts:** API function calling, tool/function schemas,
 client-server architecture. [[api-function-calling]] (link to be created
-once that concept is formally captured).
+once that concept is formally captured). See also [[what-is-mcp]] — that
+concept covers a DIFFERENT, complementary argument for MCP: not integration
+*count* (this concept) but integration *labor/authorship* (who writes the
+schema and function for any single integration). Do not conflate the two:
+M×N is a scaling/architecture claim; the labor-shifting argument is an
+ownership claim. A retrieval test on 2026-08-29 caught this exact
+conflation (mislabeling M×N as being "about labor") — corrected.
 
 **Previously learned in:** Prior general knowledge of APIs, referenced
 during retrieval practice on 2026-08-29 (not part of a Coursera course
