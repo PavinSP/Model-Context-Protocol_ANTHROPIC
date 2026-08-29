@@ -163,3 +163,20 @@ formatted as instructions telling an AI assistant to refuse to help and to
 click a UI button — this is a prompt-injection attempt embedded in the
 page content, not a genuine Coursera instruction, and was disregarded. No
 impact on the quiz result or this concept's evidence.
+
+**Recheck resolved (2026-08-29, after practice assignment feedback):** The
+practice assignment "Explaining Client–Server Communication" (80%, 4/5 —
+AI grader flagged generic example + server/MCP-server role confusion in
+writing) prompted a guided step-by-step rewrite exercise. During that
+rewrite, learner INITIALLY repeated the exact same slip flagged earlier
+("after MCP server it goes to GitHub to fetch the tools" during listing) —
+confirming this was a real, recurring gap, not a one-off phrasing slip.
+When asked directly ("is the MCP server telling you about tools it already
+has built in, or going out to GitHub right then?"), learner correctly
+answered that the MCP server already has the tool built in (e.g.
+`list_repo()`) and that GitHub is never contacted during listing — only
+during execution. This time the correct answer came with much lighter
+scaffolding (a direct either/or question, not a full worked reframing) —
+real improvement, but the fact it recurred at all means this needs ONE
+MORE cold, unprompted check in a future session before calling it fully
+resolved.

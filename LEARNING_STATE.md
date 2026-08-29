@@ -12,20 +12,21 @@ Last updated: 2026-08-29
 * Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. NEW GAP (confirmed via independent Coursera dialogue): learner does not yet know "resources" and "prompts" as MCP server components — never actually taught, only named in passing. Concept files now numbered — see concepts/INDEX.md.
 * Labs: 0 completed
 * Assignments: 1 completed — MCP Clients Quiz, graded, 100% (4/4), submitted 2026-08-29
-* Exercises: 0 completed
+* Exercises: 1 completed — practice assignment "Explaining Client–Server Communication," graded by AI, 80% (4/5), submitted 2026-08-29
 * Projects: 0 completed
-* Mistakes: None logged
+* Mistakes: 1 logged — "server" vs "MCP server" naming ambiguity in written explanations, plus a recurrence of the GitHub-contact-timing slip (both resolved this session, one more cold recheck needed 2026-08-30). See mistakes/2026-08-29-server-naming-ambiguity.md
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: MCP server components (tools/resources/prompts) taught
-  ahead of the quiz. Graded MCP Clients Quiz PASSED at 100% (4/4),
-  submitted 2026-08-29, due date was 2026-08-31 — DONE, ahead of schedule.
-  Remaining Module 1 items: "Explaining Client–Server Communication"
-  practice assignment (30 min). Then Module 1 is fully complete → move to
-  Module 2 ("Hands-on with MCP servers" — Python project setup, defining
-  tools, server inspector).
-* Course completion status: ~20% — Module 1 nearly complete (5/6 items done: welcome, 3 videos/dialogue, graded quiz passed; only the practice assignment remains)
+* Next action: Module 1 is now FULLY COMPLETE. Graded quiz 100%, practice
+  assignment 80% (real gap found and worked through: server-naming
+  ambiguity in writing + a recurrence of the GitHub-contact-timing slip,
+  both addressed this session but scheduled for one more cold, unprompted
+  recheck on 2026-08-30 — see mistakes/2026-08-29-server-naming-ambiguity.md).
+  Next: move to Module 2 ("Hands-on with MCP servers" — Python project
+  setup with uv, defining tools, the server inspector, building/testing a
+  first MCP server). This is the first hands-on coding module.
+* Course completion status: ~25% — Module 1 FULLY COMPLETE (6/6 items: welcome, 3 videos/dialogue, graded quiz 100%, practice assignment 80%). Module 2 not yet started.
 
 ---
 
