@@ -18,10 +18,12 @@ Last updated: 2026-08-29
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: Learner was just asked to guess which side (client vs
-  server) is the AI application and which is the tool, before watching
-  "Introducing MCP"/"MCP clients" videos. Get that answer, then process
-  those videos.
+* Next action: Learner predicted (correctly, at a high level) that the AI
+  application = client and the tool = server, before watching the video.
+  Waiting on user to watch "Introducing MCP" (Module 1, 4 min) and paste
+  the transcript so we can confirm/expand this prediction with the actual
+  mechanism (how discovery/invocation actually works) and begin
+  teach+test on that lesson.
 * Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
 
 ---
