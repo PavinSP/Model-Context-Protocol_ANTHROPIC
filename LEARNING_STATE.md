@@ -9,7 +9,7 @@ Last updated: 2026-08-29
 * Completed lessons: Welcome to the course (logistics only); Introducing MCP (taught + tested); MCP clients (taught + tested)
 * Concepts learned: M×N/M+N (Strong, ~4/6); What MCP is / labor-shifting argument (Developing, ~2-3/6); MCP clients — transport/messages/full sequence (~4/6, see concepts/03-mcp-clients.md)
 * Concepts demonstrated: M×N — derived M+N formula unprompted, verified numerically. What-is-MCP — correctly explained GitHub example; corrected on tool-use-vs-MCP conflation and M×N-vs-labor mislabeling (not yet retested unscaffolded). MCP clients — recalled the full 15-step/6-party sequence unprompted, correctly placed both detours; one self-corrected slip (said MCP server asks GitHub for "list of tools" — inaccurate, GitHub is only contacted during tool execution, not listing)
-* Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. Concept files now numbered — see concepts/INDEX.md.
+* Concepts weak: Tool-use-vs-MCP distinction, M×N-vs-labor-shifting distinction, and "does listing tools contact GitHub" (MCP clients) — all corrected once, need unscaffolded retest before calling them Strong. NEW GAP (confirmed via independent Coursera dialogue): learner does not yet know "resources" and "prompts" as MCP server components — never actually taught, only named in passing. Concept files now numbered — see concepts/INDEX.md.
 * Labs: 0 completed
 * Assignments: 0 completed
 * Exercises: 0 completed
@@ -18,13 +18,17 @@ Last updated: 2026-08-29
 * Misconceptions: None logged
 * Review schedule: M×N/M+N problem — next review 2026-08-30
 * Retention status: M×N/M+N problem = Strong (untested after delay yet, so not Mastered)
-* Next action: "MCP clients" fully taught and tested (full sequence recall
-  successful, ~4/6). Remaining Module 1 items: "Connecting Integration
-  Challenges to MCP" dialogue (15 min), MCP Clients Quiz (graded, due
-  2026-08-31), and "Explaining Client–Server Communication" practice
-  assignment. Ask user to watch/paste the next piece of material. Also
-  schedule a 2026-08-30 review touching: M×N-vs-labor conflation,
-  tool-use-vs-MCP distinction, and "does tool listing contact GitHub?"
+* Next action: Completed "Connecting Integration Challenges to MCP"
+  dialogue independently (external evidence, not just our own scaffolded
+  Q&A) — confirmed M×N, M+N/labor-shifting, and message-type retention
+  are all Strong. BUT this dialogue exposed a real, unaddressed gap:
+  learner does not yet know MCP server components beyond "tools" —
+  needed a hint to recall "resources," and incorrectly listed "requests"
+  (a message type) as a server component instead. TOP PRIORITY: teach
+  resources and prompts before the graded MCP Clients Quiz (due
+  2026-08-31). Also verify with user whether that quiz expects
+  resources/prompts knowledge even though they're formally deep-dived in
+  Module 3, since this dialogue (Module 1) already probed for them.
 * Course completion status: 0% — in progress (pre-lecture retrieval phase of Module 1)
 
 ---

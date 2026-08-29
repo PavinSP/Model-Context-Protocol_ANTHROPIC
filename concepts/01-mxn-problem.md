@@ -62,5 +62,12 @@ numerically. Not yet tested after a delay, so not "mastered" (6/6) —
 next-day review will confirm whether this holds without the scaffolding of
 this session's questions.
 
-**Last reviewed:** 2026-08-29 (initial introduction + immediate retest)
+**Independent confirmation (2026-08-29):** Learner reproduced this exact
+concept unprompted, with the same numeric example, in Coursera's own
+"Connecting Integration Challenges to MCP" dialogue — external evidence,
+not just this session's own scaffolded questions. Mastery confidence
+increased.
+
+**Last reviewed:** 2026-08-29 (initial introduction + immediate retest +
+independent Coursera dialogue confirmation)
 **Next review:** 2026-08-30 (next day, per spaced repetition schedule)

@@ -90,5 +90,21 @@ but mislabeled M×N as being about "labor" — M×N is about integration
   "making a request" — a protocol underneath a general capability, not the
   capability itself.
 
-**Last reviewed:** 2026-08-29 (taught + first retrieval test)
+**Independent confirmation (2026-08-29):** In Coursera's own "Connecting
+Integration Challenges to MCP" dialogue, learner correctly explained MCP as
+a "middleman" and correctly stated that adding a new tool costs only ONE
+integration regardless of how many AI models use it — confirms the
+practical consequence of the labor-shifting/M+N argument outside this
+session's own scaffolding.
+
+**Gap surfaced by the same dialogue:** When asked for the three components
+of an MCP server, learner said "tools, prompts, and requests" — incorrectly
+including "requests" (a client↔server MESSAGE TYPE, not a server
+component) and needed a hint to recall "resources" as the third component.
+Root cause: resources and prompts have only been named in this concept's
+definition, never actually taught. See [[mcp-resources-and-prompts]]
+(concept file to be created) — this is the top-priority next lesson.
+
+**Last reviewed:** 2026-08-29 (taught + first retrieval test + independent
+Coursera dialogue, which also surfaced the resources/prompts gap)
 **Next review:** 2026-08-30
