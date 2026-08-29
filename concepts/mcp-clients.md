@@ -63,6 +63,45 @@ now we can see *exactly* which messages implement that shift.
 are always (at least) three hops for any real action: Your Server ↔ MCP
 Client ↔ MCP Server (↔ the actual external service, for tool calls).
 
+**Plain-language clarification — what is "your server"?**
+"Your server" is simply the backend code you (the app developer) write and
+run for your own application — e.g. the backend behind a chatbot website.
+It receives the user's question, talks to Claude, and sends the answer
+back. It is NOT Claude, NOT GitHub, and NOT the MCP client/server — it's
+your own coordinating program sitting in the middle.
+
+Restaurant analogy:
+- User = customer ordering food
+- Your server = the waiter (coordinates everything, but doesn't cook or
+  fetch ingredients itself)
+- Claude = the chef (decides what's needed to fulfill the order)
+- MCP Client = the waiter's notepad/walkie-talkie into the kitchen's supply
+  system
+- MCP Server = the actual supply room holding the real tools/data
+- GitHub = the delivery truck bringing fresh data from outside
+
+The waiter never goes to the delivery truck directly — they radio the
+kitchen, which handles it.
+
+**Why the "tool-listing detour" (steps 2–5) happens:** Before your server
+can even properly ask Claude the user's question, it must tell Claude what
+tools exist. But your server doesn't know the tool list itself — only the
+MCP server does. So it detours: ask MCP client → MCP client asks MCP server
+→ gets list → hands it back. Only then does the real conversation with
+Claude begin. It's called a "detour" because it's pure prep work that
+happens BEFORE the main Claude conversation.
+
+**Why the "tool-execution handoff" (steps 8–9) happens:** When Claude says
+"I want to use a tool with these arguments," your server has no code to
+actually run that tool (e.g. no code to fetch GitHub repos). So it hands
+the job off — "MCP client, run this for me" — and the MCP client forwards
+it as `CallToolRequest` to the MCP server, which is the only party with the
+real implementation.
+
+**One-line summary:** Your server is a necessary middleman that doesn't
+know how to list or run tools itself — for both jobs, it always asks the
+MCP client, which always asks the MCP server, which does the real work.
+
 **Related concepts:** [[what-is-mcp]] (why this handoff exists),
 [[mxn-problem]] (a different, complementary argument for MCP).
 
